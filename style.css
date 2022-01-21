@@ -23,3 +23,12 @@ body {
 .slider__btn {
     background-color: #FF3786;
 }
+
+
+.main__product__area__wrapper {
+    background-color: #ddd;
+}
+
+.shoes__area {
+    margin-bottom: 50px;
+}
