@@ -16,3 +16,10 @@ body {
 .main__search__icon i {
     color: #aaa2a2;
 }
+
+.main__slider__section {
+    background-color: #FCEAE8;
+}
+.slider__btn {
+    background-color: #FF3786;
+}

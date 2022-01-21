@@ -1,55 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main__wrapper">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container p-4">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/images/logo.png" alt="" width="164" height="28">
-                    </a>
-                    <div class="search__box">
-                        <div class="d-flex justify-content-center align-items-center text-center">
-                          <input class="px-4" type="text" placeholder="Search">
-                          <div class="main__search__icon"> 
-                            <i class="fas fa-search"></i>
-                          </div>
-                        </div>
-                    </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-              
-        </header>
 
-    </div>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main__wrapper">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container p-4">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png" alt="" width="164" height="28">
+          </a>
+          <div class="search__box">
+            <div class="d-flex justify-content-center align-items-center text-center">
+              <input class="px-4" type="text" placeholder="Search">
+              <div class="main__search__icon">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!-- Main Slider Section Start -->
+    <section class="main__slider__wrapper">
+      <div class="container main__slider__section rounded shadow-sm">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-9 col-md-9 col-sm-9 p-5">
+                  <h1 class="pt-4 fw-bolder pb-4">Mi LED TV 4A PRO 32</h1>
+                  <p class="w-75">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.</p>
+                  <h2 class="fw-bolder py-4">$1289</h2>
+                  <button class="btn slider__btn px-5 py-3 text-white">
+                    BUY NOW <i class="fas fa-arrow-right    "></i>
+                  </button>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                  <img class="img-fluid mt-5" src="./assets/images/banner-images/tv.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-9 col-md-9 col-sm-9 p-5">
+                  <h1 class="pt-4 fw-bolder pb-4">Cool Dude Headphone</h1>
+                  <p class="w-75">This is the best headphone in the world for people who just want to waste time in front of funky world</p>
+                  <h2 class="fw-bolder py-4">$420</h2>
+                  <button class="btn slider__btn px-5 py-3 text-white">
+                    BUY NOW <i class="fas fa-arrow-right    "></i>
+                  </button>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                  <img class="img-fluid mt-5" src="./assets/images/banner-images/headphone.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-9 col-md-9 col-sm-9 p-5">
+                  <h1 class="pt-4 fw-bolder pb-4">X-Box for your living room</h1>
+                  <p class="w-75">This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                  <h2 class="fw-bolder py-4">$600</h2>
+                  <button class="btn slider__btn px-5 py-3 text-white">
+                    BUY NOW <i class="fas fa-arrow-right    "></i>
+                  </button>
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                  <img class="img-fluid mt-5" src="./assets/images/banner-images/xbox.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Main Slider Section End -->
+
+    </section>
+
+  </div>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
